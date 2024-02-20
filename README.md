@@ -1,5 +1,5 @@
 # circular-svr
-Barebones code for running a circular support vector regression ('circular-svr.py') for predicting orientations using scikit-learn. Also contains a Jupyter notebook file ('check_results.ipynb') which computes the average angular difference between actual and predicted orientations.
+Barebones code for running a circular support vector regression ('circular-svr.py') that predicts orientations based on some data, using scikit-learn. Also contains a Jupyter notebook file ('check_results.ipynb') which computes the average angular difference between actual and predicted orientations.
 
 Currently designed to work with orientations in the range [0, 180), but can be easily modified to work with other ranges (e.g., 0-360).
 
