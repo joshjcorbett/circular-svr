@@ -3,8 +3,8 @@ from sklearn.model_selection import KFold
 from sklearn.svm import SVR
 
 # load relevant files: 
-#   'data' is the feature matrix (e.g., rows are trials and columns are voxels from an fMRI experiment) 
-#   'oris' contains a list of target orientations (in degrees), in the range [0,18)]
+# 'data' is the feature matrix (e.g., rows are trials and columns are voxels from an fMRI experiment) 
+# 'oris' contains a list of target orientations (in degrees), in the range [0,18)]
 data='data/neuro_data.csv'
 oris='data/orientations.csv'
 output='results.csv'
